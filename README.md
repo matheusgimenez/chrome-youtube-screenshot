@@ -29,7 +29,7 @@ Open a noice video on youtube, then select the highest quality possible (for bet
 
 Then magically a button like this one: <i class="icon-camera"></i> will appear right after "Fullscreen" icon. (If you are blind, here are some Braille: ⠠⠊⠋ ⠽⠕⠥ ⠉⠁⠝ ⠎⠑⠑ ⠞⠓⠊⠎⠂ ⠽⠕⠥ ⠁⠗⠑ ⠝⠕⠞ ⠃⠇⠊⠝⠙⠲ ⠠⠛⠕ ⠙⠕ ⠎⠕⠍⠑ ⠎⠞⠥⠋⠋ )
 
-- Just click on it, then Right Click > [Save Image Ass]
+- Just click on it, then Right Click > [Save Image As]
 
 - Some magic will occur and your image will download.
 

@@ -1,0 +1,36 @@
+{
+    "name": "Youtube Screenshot",
+    "version": "1.0",
+    "description": "Takes a screenshot from youtube in custom time! Up to 6k!",
+
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "identity",
+        "activeTab",
+        "cookies",
+        "contextMenus",
+        "webNavigation",
+        "tabs",
+        "http://*/*", "https://*/*"
+    ],
+    "content_scripts": [{
+        "js": [
+            "content_scripts.js"
+        ],
+        "matches": [
+            "<all_urls>"
+        ],
+        "run_at": "document_end"
+    }],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
